@@ -109,6 +109,6 @@ const options = {
 const CustomRadarChart = ({ data }: Props) => {
   return <Radar data={setChartData(data)} options={options} />;
 
-};
+}
 
 export default CustomRadarChart;
