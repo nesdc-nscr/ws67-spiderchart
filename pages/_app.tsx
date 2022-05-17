@@ -8,7 +8,7 @@ export default function App(props: AppProps) {
   return (
     <>
       <Head>
-        <title>Self-Checklist WS67</title>
+        <title>Spider Chart หลักเกณฑ์การประเมินโครงการฯ</title>
         <meta
           name='viewport'
           content='minimum-scale=1, initial-scale=1, width=device-width'

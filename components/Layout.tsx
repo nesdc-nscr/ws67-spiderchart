@@ -27,7 +27,7 @@ const CustomAppShell = ({ children }: Props) => {
             style={{ display: "flex", alignItems: "center", height: "100%" }}>
             <Image width={80} height={80} src='nesdc-logo.png' />
             <Text weight={700}>
-              Self-Checklist หลักเกณฑ์การประเมินข้อเสนอโครงการสำคัญ
+              Spider Chart หลักเกณฑ์การประเมินโครงการ เพื่อขับเคลื่อนการบรรลุเป้าหมายตามยุทธศาสตร์ชาติประจำปี 2567
             </Text>
 
             <MediaQuery largerThan='sm' styles={{ display: "none" }}>

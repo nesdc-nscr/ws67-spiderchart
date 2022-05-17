@@ -1,4 +1,4 @@
-import { Box } from "@mantine/core";
+import { Box, Grid } from "@mantine/core";
 import { Radar } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -71,10 +71,6 @@ const options = {
       borderWidth: 3,
     },
   },
-  // interaction: {
-  //   intersect: false,
-  //   mode: 'point',
-  // },
   plugins: {
     tooltip: {
       enabled: true,
@@ -94,6 +90,15 @@ const options = {
       suggestedMax: 5,
       ticks: {
         stepSize: 1
+      },
+      grid: {
+        backgroundColor: "rgb(0, 0, 0)",
+        bordercolor: "rgb(0, 0, 0)",
+        color: "rgb(0, 0, 0)",
+      },
+      angleLines:{
+        color: "rgb(0, 0, 0)",
+
       }
     },
   },
