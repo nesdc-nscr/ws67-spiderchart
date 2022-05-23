@@ -18,17 +18,6 @@ export default function App(props: AppProps) {
           content='minimum-scale=1, initial-scale=1, width=device-width'
         />
       </Head>
-      {/* <Global
-      styles={[
-        {
-          '@font-face': {
-            fontFamily: 'Kanit',
-            src: `url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap')`,
-            fontStyle: 'normal',
-          },
-        },
-      ]}
-      /> */}
       <MantineProvider
         withGlobalStyles
         withNormalizeCSS

@@ -27,7 +27,7 @@ const Home: NextPage = () => {
             <div style={{width: '100%', height: '2px', backgroundColor: theme.colors.gray[8], marginTop:'10px',marginBottom:'10px' }}></div>
       <ResponsiveFlexWrapper>
         <Group grow position='center'>
-          <Box sx={{ maxWidth: 'auto' }} mx='auto'>
+          <Box >
             <DataPointForm handleFormSubmit={handleFormSubmit} />
           </Box>
         </Group>
