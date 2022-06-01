@@ -46,6 +46,16 @@ const DataPointForm = ({ handleFormSubmit }: Props) => {
       g: (value) =>
         value >= 0 && value <= 5 ? null : "ระบุได้เฉพาะเลข 0 ถึง 5",
     },
+    // inputWeight:{
+    //   a:(value) == value*2,
+    //   b:(value) == value*2,
+    //   c:(value) == value*2,
+    //   d:(value) == value*2,
+    //   e:(value) == value*2,
+    //   f:(value) == value*2,
+    //   g:(value) == value*2,
+    // },
+
   });
 
   return (
@@ -69,7 +79,6 @@ const DataPointForm = ({ handleFormSubmit }: Props) => {
         </ModalPopover>
       </Group>
       <Group noWrap>
-        {/* <Stack spacing="xs" style={{ width: "100%" }}> */}
         <Select
           style={{ width: "100%" }}
           required
@@ -80,7 +89,6 @@ const DataPointForm = ({ handleFormSubmit }: Props) => {
           data={["0", "1", "2", "3", "4", "5"]}
           {...form.getInputProps("b")}
         />
-        {/* </Stack> */}
         <ModalPopover
           title="เกณฑ์การให้คะแนน ข้อที่ 2"
           buttonLabel="รายละเอียดเกณฑ์การให้คะแนน ข้อที่ 2"
@@ -90,7 +98,6 @@ const DataPointForm = ({ handleFormSubmit }: Props) => {
       </Group>
 
       <Group noWrap>
-        {/* <Stack noWrap style={{ maxWidth: "80%" }}> */}
         <Select
           style={{ width: "100%" }}
           required
@@ -107,7 +114,6 @@ const DataPointForm = ({ handleFormSubmit }: Props) => {
         >
           <Image src="q-criteria-description\q3-description.png" alt="q3" />
         </ModalPopover>
-        {/* </Stack> */}
       </Group>
       <Group noWrap>
         <Select

@@ -26,10 +26,11 @@ type Props = {
 
 const transformData = (data: number[]) => {
   const output = data.map((inputVal, i) => {
-    return i == 0 ? inputVal * 5 : inputVal;
+    return i == 0 ? inputVal * 5 : inputVal
   });
   return output;
 };
+
 
 const setChartData = (data: number[]) => ({
   labels: ["1", "2", "3", "4", "5", "6", "7"],
@@ -47,6 +48,7 @@ const setChartData = (data: number[]) => ({
     }
   ],
 });
+
 
  
 
@@ -104,16 +106,10 @@ const options = {
   },
   responsive: true,
 
-  
-
-
 };
-
-
 
 const CustomRadarChart = ({ data }: Props) => {
   return <Radar data={setChartData(data)} options={options} />;
-
 }
 
 export default CustomRadarChart;
